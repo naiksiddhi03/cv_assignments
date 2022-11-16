@@ -16,9 +16,9 @@ from random import randrange
 #from google.colab.patches import cv2_imshow
 
 img_ = cv2.imread('C:/Users/lenovo/Desktop/cv2/ass4/left.jpeg')
-img1 = cv2.cvtColor(img_,cv2.COLOR_BGR2GRAY)
+img1 = st.cvtColor(img_,cv2.COLOR_BGR2GRAY)
 img = cv2.imread('C:/Users/lenovo/Desktop/cv2/ass4/right.jpeg')
-img2 = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+img2 = st.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 st.text('input image: left')
 st.image([img_])
